@@ -8,6 +8,13 @@ This repository is the public-facing technical overview for a proprietary predic
 
 A research-to-execution architecture designed to separate strategy experimentation from live order execution. The intended workflow combines market-data normalization, event and signal evaluation, risk gating, Shadow evaluation, controlled Live execution, and auditable measurement.
 
+## Technical case studies
+
+- [Architecture case study](docs/architecture.md) — conceptual system boundaries, risk controls, reconciliation, and evidence standards.
+- [Live and Shadow workflow](docs/live-shadow-workflow.md) — why research observation and real order execution require different controls.
+
+These are sanitized conceptual references. They are not a complete implementation specification and do not assert that every depicted component has been independently audited or validated.
+
 ## Conceptual architecture
 
 ```mermaid
